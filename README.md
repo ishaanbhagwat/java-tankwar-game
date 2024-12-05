@@ -28,3 +28,9 @@ A 2D Tank War game developed using JavaFX. The game allows players to control ta
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/tank-war-game.git
+2. Add required JavaFX module:
+   ```bash
+   java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml com.example.tankwar.Main
+4. Run Main.java file.
+   ```bash
+   java com.example.tankwar.Main
