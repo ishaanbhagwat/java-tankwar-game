@@ -1,17 +1,17 @@
 # Tank War Game (JavaFX)
 
-A 2D Tank War game developed using JavaFX. The game allows players to control tanks, fight against each other, and navigate through dynamic maps. The map is made of walls and obstacles, and players use strategic movement and combat to win.
+A 2D Tank War game developed using JavaFX and OOP Design patterns. The game allows the player to control a tank, fight against AI tanks, and navigate through dynamic maps. The map is made of walls and obstacles, and players/AI Tanks can use missile burst firing and health packs to win by destroying the other tanks, before losing all their lives.
 
 ## Demo
 https://github.com/user-attachments/assets/5fe837ee-f8d4-4104-9255-1084e4bf137d
 
 ## Features
 
-- **Tank Movement**: Tanks can be controlled using keyboard inputs to move around the map.
-- **Combat System**: Players can shoot projectiles to damage enemy tanks.
+- **Tank Movement**: Tanks can be controlled by user using the keyboard, enemy tanks have player seeking algorithm to move towards the player tank.
+- **Combat System**: The player can shoot projectiles to damage enemy tanks, projectiles cannot pass through immovable walls or after crashing into enemy tanks.
 - **Dynamic Map**: The game map is created using a 2D array, dynamically adjusted to fit the pane size.
-- **Walls and Obstacles**: Walls are represented as GIFs and are integrated into the game map, using design patterns to handle their creation and interaction.
-- **Game Loop**: The game is driven by a continuous game loop to ensure smooth gameplay and updates.
+- **Walls and Obstacles**: Walls are represented as GIFs and are integrated into the game map, they act as immovable objects that cannot be passed through.
+- **Respawning and Lives**: If the player tank takes too much damage, it will respawn until all 3 lives are exhausted.
 
 ## Technologies Used
 
