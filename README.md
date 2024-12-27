@@ -3,7 +3,7 @@
 A 2D Tank War game developed using JavaFX and OOP Design patterns. The game allows the player to control a tank, fight against AI tanks, and navigate through dynamic maps. The map is made of walls and obstacles, and players/AI Tanks can use missile burst firing and health packs to win by destroying the other tanks, before losing all their lives.
 
 ## Demo
-<img src="https://github.com/user-attachments/assets/502b01af-92ac-439d-a2e9-fbee08665359" alt="TankWarDemo" width="500" height="800">
+<img src="https://github.com/user-attachments/assets/502b01af-92ac-439d-a2e9-fbee08665359" alt="TankWarDemo" width="650" height="850">
 
 ## Features
 
