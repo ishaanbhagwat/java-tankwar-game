@@ -4,7 +4,6 @@ A 2D Tank War game developed using JavaFX and OOP Design patterns. The game allo
 
 ## Demo
 ![TankWarDemo](https://github.com/user-attachments/assets/502b01af-92ac-439d-a2e9-fbee08665359)
-https://github.com/user-attachments/assets/5fe837ee-f8d4-4104-9255-1084e4bf137d
 
 ## Features
 
