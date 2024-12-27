@@ -3,6 +3,7 @@
 A 2D Tank War game developed using JavaFX and OOP Design patterns. The game allows the player to control a tank, fight against AI tanks, and navigate through dynamic maps. The map is made of walls and obstacles, and players/AI Tanks can use missile burst firing and health packs to win by destroying the other tanks, before losing all their lives.
 
 ## Demo
+![TankWarDemo](https://github.com/user-attachments/assets/502b01af-92ac-439d-a2e9-fbee08665359)
 https://github.com/user-attachments/assets/5fe837ee-f8d4-4104-9255-1084e4bf137d
 
 ## Features
@@ -16,7 +17,8 @@ https://github.com/user-attachments/assets/5fe837ee-f8d4-4104-9255-1084e4bf137d
 ## Technologies Used
 
 - **JavaFX**: For building the graphical user interface (GUI) and handling game rendering and animations.
-- **Design Patterns**: Various design patterns like Factory, Singleton, and Observer are used to structure the code and ensure scalability and maintainability.
+- **Design Patterns**: Utilized Factory pattern to build Player/AI Tanks and walls, singleton pattern for game state, observer pattern for artifact rendering and state pattern for Tank Health and Respawn. 
+, Singleton, and Observer are used to structure the code and ensure scalability and maintainability.
 - **Object-Oriented Programming**: Emphasis on OOP principles to create reusable, modular code, and design components like tanks, bullets, and the map.
 
 ## Installation
